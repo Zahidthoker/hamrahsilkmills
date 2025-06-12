@@ -29,14 +29,14 @@ export default function ProductCard(){
   ];
 
   return (
-        <div className="p-10 pt-0  bg-[#111111] text-[#d8d0c1] min-h-screen">
+      <div className="p-10 pt-0  bg-[#111111] text-[#d8d0c1] min-h-screen">
      {/* Section 2: Product Cards */}
       <h2 className="text-4xl font-bold mb-8  pb-6 text-center">Our Products</h2>
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-8 ">
         {products.map((product, index) => (
           <div
             key={index}
-            className="bg-[#1c1c1c] rounded-lg shadow-lg p-6 flex flex-col items-center text-center hover:scale-105 transition-transform duration-300"
+            className="bg-[#1c1c1c] rounded-lg shadow-lg p-6 flex flex-col items-center text-center hover:scale-105 transition-transform duration-300 hover:border hover:border-[#d4af37]/30"
           >
             <img
               src={product.image}

@@ -3,7 +3,7 @@ import ProductCard from '../components/ProductCard'
 
 export default function Products(){
     return(
-        <div>
+        <div className='flex flex-col'>
             <Hero/>
             <ProductCard/>
         </div>
