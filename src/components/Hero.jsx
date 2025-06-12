@@ -82,10 +82,10 @@ export default function Products() {
               alt="Product slide"
               className="w-full h-96 object-cover rounded-lg shadow-lg"
             />
-            <div className='  absolute top-[80%] left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-[#3c1d4f]/80 backdrop-blur-lg
-              rounded-2xl border border-[#d4af37]/30 shadow-2xl      text-center text-[#f0e8d5]'>
-              <h1 className='text-3xl font-bold text-white p-4'>{products[currentIndex].name}</h1>
-              <p className='p-4 text-white/80'>{products[currentIndex].description}</p>
+            <div className='  absolute top-[80%] left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-[#3c1d4f]/50 backdrop-blur-lg w-[80%]
+              rounded-2xl border border-[#d4af37]/30 shadow-2xl  text-center text-[#f0e8d5]'>
+              <h1 className='text-md lg:text-3xl font-bold text-white p-4 pb-2'>{products[currentIndex].name}</h1>
+              <p className='p-4 pt-0 text-white/80 text-sm'>{products[currentIndex].description}</p>
             </div>
             
         
